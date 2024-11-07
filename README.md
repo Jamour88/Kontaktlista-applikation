@@ -1,2 +1,46 @@
 # Kontaktlista-applikation
-ta fram en kontaktlista applikation
+
+
+Uppgiften går ut på att ta fram en kontaktlista applikation. Uppgiften är uppdelad I tre delar.
+
+
+Deluppgift 1: Struktur
+Skapa strukturen för applikationen. HTML struktur och element väljer du till viss del.
+Nedanför följer en kravlista på minimumkrav för HTML strukturen:
+● Komponenterna som skapar nya kontakter, ska bestå av
+○ Ett textfält där användaren kan ange namn
+○ Ett textfält där användaren kan ange telefonnummer
+○ En knapp för att skapa ny kontakt
+● kontaktlista, ska bestå av
+○ Flera kontakter (om användaren har lagt till kontakter, annars tom)
+○ Ifyllda textfält för både namn och telefonnummer. Bägge fälten skall vara
+disabled, som default.
+○ Förutom kontaktuppgifterna, ska det även finnas knappar kopplade till
+kontakten för att
+■ Ändra kontaktuppgifter
+■ Radera kontakt
+
+
+Deluppgift 2: Interaktion
+Implementera lämplig funktionalitet i applikationen med hjälp av JavaScript. Utgå från
+följande scenarion
+● Scenario 1 (Skapa kontakt)
+○ Användaren skriver in namn och telefonnummer i respektive fält
+○ Användaren klickar på knappen för att skapa
+○ Kontakten läggs till kontaktlistan
+● Scenario 2 (Redigera kontakt)
+○ Kontaktens båda textfält är låsta som default, dvs uppgifterna går inte att
+redigera (disabled)
+○ Användaren klickar på ‘Ändra’- knappen för att redigera en tillagd kontakt
+○ Kontaktuppgifterna går nu att redigera
+○ Användaren redigerar kontaktuppgifterna
+○ Användaren klickar igen på samma knapp för att spara uppgifterna.
+○ Kontaktens textfält blir låsta, och går ej att redigera.
+○ Man skall kunna repetera denna process flera gånger om.
+
+
+● Scenario 3 (Radera kontakt)
+○ Användaren klickar på ‘radera’-knappen, som tar bort kontakten från listan
+Deluppgift 3: Design (ej obligatorisk)
+Applicera ett lämpligt ramverk och/eller egenskriven CSS för att få en snygg design på din
+applikation. Förslagsvis kör du ett ramverk så som bootstrap.
