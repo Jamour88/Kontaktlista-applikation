@@ -1,0 +1,109 @@
+body {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: #fcfefa;
+    color: #242222;
+    margin: 10;
+    padding: 50px;
+    display: flex;
+    justify-content: top;
+    align-items: left;
+    flex-direction: column;
+    min-height: 100px;
+}
+
+h1 {
+    font-size: 40px;
+    color: #2f2cd3;
+    margin-bottom: 50px;
+}
+
+#add-contact {
+    background-color: #fff;
+    padding: 10px;
+    border-radius: 2px;
+    box-shadow: 0 4px 8px rgba(63, 31, 31, 0.897);
+    width: 100%;
+    max-width: 100%;
+    margin-bottom: 45px;
+    display: flex;
+    gap: 10px;
+}
+
+#add-contact input[type="text"] {
+    font-weight: bold;
+    padding: 10px;
+    font-size: 15px;
+    border: 1px solid #c8c5c5;
+    border-radius: 2px;
+    flex: 1;
+    outline: none;
+}
+
+#add-contact button {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 15px;
+    border-radius: 2px;
+    cursor: pointer;
+    transition: background-color 1s;
+}
+
+#add-contact button:hover {
+    background-color: #215024;
+}
+
+#contact-list {
+    width: 100%;
+    max-width: 100%;
+}
+
+.contact-item {
+    background-color: #faf8f8;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 2px;
+    box-shadow: 0 4px 8px rgba(63, 31, 31, 0.897);
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.contact-item input[type="text"] {
+    padding: 8px;
+    font-size: 1em;
+    border: 1px solid #ddd;
+    border-radius: 2px;
+    flex: 1;
+    background-color: #f9f9f9;
+    color: #555;
+    outline: none;
+}
+
+.contact-item button {
+    border: none;
+    padding: 8px 12px;
+    font-size: 0.9em;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 1s;
+}
+
+.contact-item button:first-of-type {
+    background-color: #027ea8;
+    color: white;
+}
+
+.contact-item button:first-of-type:hover {
+    background-color: #014666;
+}
+
+.contact-item button:last-of-type {
+    background-color: #e03a2e;
+    color: white;
+}
+
+.contact-item button:last-of-type:hover {
+    background-color: #9e2920;
+}
